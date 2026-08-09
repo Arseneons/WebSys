@@ -2,34 +2,30 @@
 For Web System and Technology course as a Bachelor of Science in Computer Science 2nd year
 -------------------------------------------------------------------------------------------
 WEBSITE CONCEPT:
-A web-based class record management and student progress monitoring system that assists teachers in recording grades and helps students monitor their own academic progress. (Website name will follow)
+A fansite for the Philippine boy group SB19.
+Reason for making the website:
+- As a beginner in web development, I figured that I should start with creating a website that would help improve my creativity and designing.
+Purpose of the website: 
+- To showcase the achievements of SB19, embrace their history, and join them in their journey.
 ---------------------------------------------------------------------------------------------------------------------------
 OUTLINE
 1. Landing Page
-   - About the Website
-   - Key Features
-   - How it Works
-   - FAQ
-   - Security and Privacy
-   - HEADER: Log-in or Sign-Up
+   - Headlines (latest ganap of the group):
+   - who is SB19?
+   - calendar of events
+   - head to homepage button
+   - HEADER: Log-in or Sign-Up 
    
 2. Home Page
-   > User: Student (cannot edit records)
-     - checklist
-     - attendance record
-     - recorded grades
-     - grading system
-     
-   > User: Teacher (can edit records)
-     - attendance record
-     - grade record
-     - average calculator
-     - grading system
+   - discography
+   - timeline
+   - featured music video
+   - official images
+   - links to official accounts (socmed and stores)
+   - endorsements
+   - news articles
+   - infos about each member
   
-   > HEADER
-     - navigation bar (varies in user)
-       - STUDENT: navigates through enrolled subjects
-       - TEACHER: navigates through sections held
    > FOOTER
      - Copyright Notice
      - Website Name and Version
@@ -39,21 +35,14 @@ OUTLINE
      - Data Privacy Notice
        
 3. Log-in Page
-   - Student or Teacher
-   - Email address
-   - Password
+     - "Sign in as Username_Registered" or "Sign in as Guest"
+     - "Use another account"
+       username
+       password
+     - No account yet? Register
    
 4. Registration Page
-   > Student
-     - Full Name
-     - Profile picture
-     - Grade level and section
-     - Email address
-     - Password
-   > Teacher
-     - Full Name
-     - Profile picture
-     - Department
-     - Grade level and sections held
-     - Email address
-     - Password
+   - username (unique)
+   - email account
+   - password
+   - house (freezer, farm, ihawan, manukan, maisan)
