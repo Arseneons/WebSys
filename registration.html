@@ -1,19 +1,42 @@
 <!DOCTYPE html> 
 <html>
     <head>
-        <title>
-            Web Systems and Technologies
-        </title>
+        <title>A'tin19 | Registration</title>
+        <link rel="stylesheet" href="webstyle.css">
     </head>
     <body>
-        <h1>Profile Page</h1>
-        <ul>
-            <li>Developer: Arseneons</li>
-            <li>Birthday: July 28</li>
-        </ul>
-        <br> <br>
-           <a href="index.html">Landing Page</a>
-        <br> <br>
-        <a href="profile.html">Profile Page</a>
+        <nav> 
+   <div class = "navbar"> 
+      <a href = "home.html" style = "float:left">Home</a>
+   </div>
+</nav>
+<br>
+    <div class="loginbox">
+<form action = "/cgi-bin/html5.cgi" method = "get">
+<input type = "text" name = "name" placeholder="Name" required/> <br> <br>
+<input type = "email" name = "newinput" placeholder="Email" required/> <br><br>
+<input type ="password" name ="password" placeholder="Password" required/> <br>
+<input type ="password" name ="password" placeholder="Confirm Password" required/> <br><br>
+Select your house <br>
+<input type = "checkbox" name = "freezer" value = "on"> Taga-freezer <br>
+<input type = "checkbox" name = "ihawan" value = "on"> Taga-ihawan <br>
+<input type = "checkbox" name = "manunkan" value = "on"> Taga-manukan <br>
+<input type = "checkbox" name = "farm" value = "on"> Taga-farm <br>
+<input type = "checkbox" name = "maisan" value = "on"> Taga-maisan <br><br>
+<input type ="submit" value ="Create Account" /> <br><br>
+Already have an account?
+<br> <br> <a href="login.html">
+<input type = "button" name = "login" value = "Login"/> </a>
+</form>
+</div>
+<br>
+<footer>
+   <div class="navbar">
+      <p>© 2026 Arseneons. All Rights Reserved. <br>
+                              Website Name Version 1.0 </p>
+      <a href="t&c.html">Terms and Conditions</a> <br>
+      <a href="privacy_policy.html" gap="20px">Privacy Policy Statement</a>
+   </div>
+</footer>   
     </body>
 </html>
