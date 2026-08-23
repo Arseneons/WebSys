@@ -1,0 +1,23 @@
+.navbar {
+   background-color: #D8472F;
+   overflow: hidden;
+   padding: 15px;
+}
+.navbar a {
+   color: #E7E3D8;
+   text-decoration: none;
+}
+
+.navbar a:hover {
+   background-color: #075A80;
+}
+.navbar .login {
+   float: right;
+}
+
+body {
+   background-color: #075A80;
+}
+h1, h2, p {
+   color: #E7E3D8;
+}
