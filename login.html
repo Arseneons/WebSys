@@ -1,20 +1,38 @@
 <!DOCTYPE html> 
 <html>
     <head>
-        <title>
-            Web Systems and Technologies
-        </title>
+        <title>A'tin19 | Login</title>
+        <link rel="stylesheet" href="webstyle.css">
     </head>
     <body>
-        <h1>Profile Page</h1>
-        <img src="https://static.icy-veins.com/images/genshin-impact/characters/wanderer.webp">
-        <ul>
-            <li>Name: Eons Adrift</li>
-            <li>Birthday: July 13</li>
-        </ul>
-        <br> <br>
-        <a href="index.html">Landing Page</a>
-        <br> <br>
-        <a href="about.html">About Me</a>
+        <nav> 
+   <div class = "navbar"> 
+      <a href = "home.html" style = "float:left">Home</a>
+   </div>
+</nav>
+<br>
+
+<div class="loginbox">
+<form action = "/cgi-bin/html5.cgi" method = "get">
+<input type = "email" name = "newinput" placeholder="Email" required/>
+<br><br>
+<input type ="password" name ="password" placeholder="Password" required/>
+<br><br>
+<input type ="submit" value ="Login" /> <br><br>
+Doesn't have an account?
+<br> <br> <a href="registration.html">
+<input type = "button" name = "create_account" value = "Create Account"/> </a>
+</form>
+</div>
+
+<br>
+<footer>
+   <div class="navbar">
+      <p>© 2026 Arseneons. All Rights Reserved. <br>
+                              Website Name Version 1.0 </p>
+      <a href="t&c.html">Terms and Conditions</a> <br>
+      <a href="privacy_policy.html" gap="20px">Privacy Policy Statement</a>
+   </div>
+</footer>   
     </body>
 </html>

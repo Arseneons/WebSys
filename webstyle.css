@@ -14,7 +14,14 @@
 .navbar .login {
    float: right;
 }
-
+.loginbox{
+            background-color: orange;
+            border-radius: 5px;
+            padding: 20px;
+            width: 25%;
+            margin: auto;
+            color: #E7E3D8;
+         }
 body {
    background-color: #075A80;
 }
