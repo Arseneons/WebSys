@@ -1,7 +1,7 @@
 # WebSys
 For Web System and Technology course as a Bachelor of Science in Computer Science 2nd year
 -------------------------------------------------------------------------------------------
-WEBSITE CONCEPT:
+WEBSITE CONCEPT: A'tin19
 A fansite for the Philippine boy group SB19.
 Reason for making the website:
 - As a beginner in web development, I figured that I should start with creating a website that would help improve my creativity and designing.
@@ -17,15 +17,20 @@ OUTLINE
    - HEADER: Log-in or Sign-Up 
    
 2. Home Page
-   - discography
    - timeline
-   - featured music video
-   - official images
-   - links to official accounts (socmed and stores)
-   - endorsements
    - news articles
-   - infos about each member
+   - endorsements
   
+3. Discography Page
+   - discography (Albums and EPs)
+   - featured music video
+   - collab tracks
+
+4. Group Page 
+   - infos about each member
+   - links to each members' socmed accounts
+   - official images
+
    > FOOTER
      - Copyright Notice
      - Website Name and Version
@@ -34,14 +39,14 @@ OUTLINE
      - About Me
      - Data Privacy Notice
        
-3. Log-in Page
+5. Log-in Page
      - "Sign in as Username_Registered" or "Sign in as Guest"
      - "Use another account"
        username
        password
      - No account yet? Register
    
-4. Registration Page
+6. Registration Page
    - username (unique)
    - email account
    - password
