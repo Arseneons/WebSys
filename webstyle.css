@@ -8,6 +8,10 @@ main {
    flex: 1;
 }
 
+nav {
+    width: 100%;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -54,4 +58,9 @@ ul li a:hover {
          }
 h1, h2, p {
    color: #E7E3D8;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
 }
