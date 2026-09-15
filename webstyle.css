@@ -48,6 +48,10 @@ ul li a:hover {
     background-attachment: fixed;
 }
 
+.home{
+  background-color: #01173E;
+}
+
 .loginbox{
             background-color: orange;
             border-radius: 5px;
