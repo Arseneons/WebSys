@@ -6,15 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
     <body>
-        <nav> <ul>
+        <nav class="navbar"> <ul>
             <li><a href = "home.html">Home</a></li>
             <li><a href="login.html">Login</a></li>
         </ul> </nav>
 <br>
         <main>
-            
+            <section class="album">
+    <button class="album-button" data-album="gitz">
+        <img src="images/group/album_GITZ.jpg" alt="Get in the Zone album">
+    </button>
+
+    <button class="album-button" data-album="pagsibol">
+        <img src="images/group/EP_pagsibol.webp" alt="Pagsibol EP">
+    </button>
+
+    <button class="album-button" data-album="pagtatag">
+        <img src="images/group/EP_pagtatag.jpg" alt="Pagtatag EP">
+    </button>
+
+    <button class="album-button" data-album="saw">
+        <img src="images/group/EP_SaW.png" alt="Simula at Wakas album">
+    </button>
+
+    <button class="album-button" data-album="was">
+        <img src="images/group/album_WaS.webp" alt="Wakas at Simula album">
+    </button>
+</section>
+
+<section id="album-info">
+    <h2>Select an album to view its tracklist</h2>
+    <p>Discover SB19 albums, featuring their latest releases and full discography for music streaming enthusiasts!</p>
+</section>
+
         </main>
-        <footer>
+        <footer class="navbar">
             <p>© 2026 Arseneons. All Rights Reserved. <br>
                               Website Name Version 1.0 </p>
             <ul>
@@ -22,5 +48,6 @@
                 <li><a href="privacy_policy.html" gap="20px">Privacy Policy Statement</a></li>
             </ul>
         </footer>   
+        <script src="script.js"></script>
     </body>
 </html>

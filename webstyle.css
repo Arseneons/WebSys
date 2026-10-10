@@ -7,11 +7,11 @@ main {
    flex: 1;
 }
 
-nav {
+.navbar {
     width: 100%;
 }
 
-ul {
+.navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,11 +20,11 @@ ul {
   background-color: #014266;
 }
 
-ul li {
+.navbar ul li {
   float: left;
 }
 
-ul li a {
+.navbar ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -32,7 +32,7 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
+.navbar ul li a:hover {
   background-color: #075A80;
 }
 
@@ -125,6 +125,46 @@ h2 {
     object-fit: cover;
     margin: 0;
     display: block;
+}
+
+
+.album {
+    display: flex;
+    gap: 0;
+    width: 100%;
+}
+
+.album-button {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.album-button img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.album-button:hover {
+    opacity: 0.85;
+}
+
+#album-info {
+    padding: 30px;
+    min-height: 250px;
+    transition: background-color 0.5s ease;
+}
+
+#album-info h2 {
+    font-size: 28px;
+}
+
+#album-info li {
+    margin-bottom: 10px;
 }
 
 .loginbox{
