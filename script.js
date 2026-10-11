@@ -75,7 +75,7 @@ const albums = {
     }
 };
 
-const member = {
+const members = {
     ken: {
         stageName: "Ken",
         birthName: "Felip Jhon Suson",
@@ -157,21 +157,21 @@ if (memberInfo){
     const memberButtons = document.querySelectorAll(".member-button");
 memberButtons.forEach(button => {
     button.addEventListener("click", () => {
-        const member = member[button.dataset.member];
+        const member = members[button.dataset.member];
 
         memberInfo.innerHTML = `
             <h2>${member.stageName}</h2>
             <h3>${member.birthName}</h3>
             <p>
-            <strong>Positions: </strong>{positions}<br>
-            <strong>Birthdate: </strong>{birthdate}<br>
-            <strong>Zodiac Sign: </strong>{zodiacSign}<br>
-            <strong>MBTI Type: </strong>{mbtiType}
+            <strong>Positions: </strong>${member.positions}<br>
+            <strong>Birthdate: </strong>${member.birthdate}<br>
+            <strong>Zodiac Sign: </strong>${member.zodiacSign}<br>
+            <strong>MBTI Type: </strong>${member.mbtiType}
             </p>
         `;
 
 
-        // Highlight the selected album
+        
         memberButtons.forEach(btn => {
             btn.style.outline = "none";
         });
