@@ -1,0 +1,129 @@
+.landing {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #01173E;
+    color: #E7E3D8;
+}
+
+main {
+    margin: 20px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+    flex: 1;
+    align-items: start;
+    box-sizing: border-box;
+}
+
+main  h1 {
+    grid-column: 1;
+    margin: 0;
+    color: #E7E3D8;
+}
+
+.main-content {
+    grid-column: 1;
+    grid-row: 2;
+    min-width: 0;
+}
+
+.feature {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.description {
+    margin-top: 20px;
+    line-height: 1.7;
+}
+
+.description h2 {
+    margin-bottom: 10px;
+}
+
+.description p {
+    color: #E7E3D8;
+}
+
+.sidebar {
+    grid-column: 2;
+    grid-row: 2;
+    width: 100%;
+    padding: 15px;
+    background-color: #014266;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    margin-bottom: 15px;
+}
+
+.sidebar-feature {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.sidebar-news {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px;
+    background-color: #075A80;
+    border-radius: 8px;
+}
+
+article img {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+article p {
+    color: #E7E3D8;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 700px) {
+    main {
+        width: 94%;
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: auto auto auto;
+        gap: 20px;
+    }
+
+    main h1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .main-content {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .sidebar {
+        grid-column: 1;
+        grid-row: 3;
+    }
+}

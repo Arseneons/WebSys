@@ -36,17 +36,6 @@ main {
   background-color: #075A80;
 }
 
-.landing {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-image: url("images/group/lawless1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 .home{
   background-color: #01173E;
 }
