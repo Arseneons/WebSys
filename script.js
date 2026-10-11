@@ -75,9 +75,54 @@ const albums = {
     }
 };
 
-const albumButtons = document.querySelectorAll(".album-button");
+const member = {
+    ken: {
+        stageName: "Ken",
+        birthName: "Felip Jhon Suson",
+        positions: "Main Dancer, Lead Vocalist, Lead Rapper",
+        birthdate: "January 12, 1997",
+        zodiacSign: "Capricorn",
+        mbtiType: "INTJ"
+    },
+    stell: {
+        stageName: "Stell",
+        birthName: "Stellvester Ajero",
+        positions: "Main Vocalist, Lead Dancer",
+        birthdate: "June 16, 1995",
+        zodiacSign: "Gemini",
+        mbtiType: "ENFJ"
+    },
+    pablo:{
+        stageName: "Pablo",
+        birthName: "John Paulo Nase",
+        positions: "Leader, Main Rapper, Lead Vocalist",
+        birthdate: "September 14, 1994",
+        zodiacSign: "Virgo",
+        mbtiType: "INTJ"
+    },
+    josh: {
+        stageName: "Josh",
+        birthName: "Josh Cullen Santos",
+        positions: "Lead Rapper, Lead Dancer, Sub-Vocalist",
+        birthdate: "October 22, 1993",
+        zodiacSign: "Libra",
+        mbtiType: "INTJ"
+    },
+    justin: {
+        stageName: "Justin",
+        birthName: "Justin De Dios",
+        positions: "Sub-Vocalist, Visual",
+        birthdate: "July 7, 1998",
+        zodiacSign: "Cancer",
+        mbtiType: "INFJ"
+    }
+};
+
+
 const albumInfo = document.getElementById("album-info");
 
+if (albumInfo){
+    const albumButtons = document.querySelectorAll(".album-button");
 albumButtons.forEach(button => {
     button.addEventListener("click", () => {
         const album = albums[button.dataset.album];
@@ -104,3 +149,35 @@ albumButtons.forEach(button => {
         button.style.outlineOffset = "-3px";
     });
 });
+}
+
+const memberInfo = document.getElementById("member-info");
+
+if (memberInfo){
+    const memberButtons = document.querySelectorAll(".member-button");
+memberButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        const member = member[button.dataset.member];
+
+        memberInfo.innerHTML = `
+            <h2>${member.stageName}</h2>
+            <h3>${member.birthName}</h3>
+            <p>
+            <strong>Positions: </strong>{positions}<br>
+            <strong>Birthdate: </strong>{birthdate}<br>
+            <strong>Zodiac Sign: </strong>{zodiacSign}<br>
+            <strong>MBTI Type: </strong>{mbtiType}
+            </p>
+        `;
+
+
+        // Highlight the selected album
+        memberButtons.forEach(btn => {
+            btn.style.outline = "none";
+        });
+
+        button.style.outline = "3px solid #333";
+        button.style.outlineOffset = "-3px";
+    });
+});
+}
