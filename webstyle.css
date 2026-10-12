@@ -123,14 +123,54 @@ h2 {
     margin-bottom: 10px;
 }
 
+.account {
+    background-image: url("images/group/lawless3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.account main {
+    min-height: 100vh;
+}
+
 .loginbox{
-            background-color: orange;
+            background-color: #364653;
             border-radius: 5px;
             padding: 20px;
             width: 25%;
             margin: auto;
             color: #E7E3D8;
+            transform: translateY(-20px);
          }
+#login {
+    transform: translateY(70px);
+    scale: 1.2;
+}
+
+.input {
+    scale: 80%; 
+    align-self: center;
+    padding-top: 15px;
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #fff;
+}
+
+input[name="login"] {
+    scale: 80%;
+    margin-left: 16px;
+}
+
+input[name="create_account"] {
+    scale: 80%;
+    margin-left: 10px;
+}
+
+input[name="password"]:focus, input[name="email"]:focus {
+    outline: none;
+}
+
 h1, h2, p {
    color: #E7E3D8;
 }
@@ -152,6 +192,11 @@ footer ul {
 }
 
 @media (max-width: 600px) {
+
+    .account {
+        background-attachment: scroll;
+        background-position: center;
+    }
 
     footer ul {
         grid-template-columns: 1fr;

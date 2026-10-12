@@ -45,7 +45,7 @@ OUTLINE
        username
        password
      - No account yet? Register
-   
+
 6. Registration Page
    - username (unique)
    - email account
