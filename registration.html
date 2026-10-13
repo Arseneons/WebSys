@@ -12,25 +12,102 @@
 </ul> </nav>
 <br>
 <main>
+<main class="login-main" id="registration">
     <div class="loginbox">
-<form action = "/cgi-bin/html5.cgi" method = "get">
-<input type = "text" name = "name" placeholder="Name" required class="input"/> <br> <br>
-<input type = "email" name = "newinput" placeholder="Email" required class="input"/> <br><br>
-<input type ="password" name ="password" placeholder="Password" required class="input"/> <br>
-<input type ="password" name ="password" placeholder="Confirm Password" required class="input"/> <br><br>
-Select your house <br>
-<input type = "checkbox" name = "freezer" value = "on"> Taga-freezer <br>
-<input type = "checkbox" name = "ihawan" value = "on"> Taga-ihawan <br>
-<input type = "checkbox" name = "manunkan" value = "on"> Taga-manukan <br>
-<input type = "checkbox" name = "farm" value = "on"> Taga-farm <br>
-<input type = "checkbox" name = "maisan" value = "on"> Taga-maisan <br><br>
-<input type ="submit" value ="Create Account" /> <br><br>
-Already have an account?
-<br> <br> <a href="login.html">
-<input type = "button" name = "login" value = "Login"/> </a>
-</form>
-</div>
-<br>
+        <h2>Join A'TIN19!</h2>
+        <p class="login-description">
+            Create your account and join the fandom.
+        </p>
+
+        <form action="/cgi-bin/html5.cgi" method="post">
+
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name"
+                    placeholder="Enter your name"
+                    required class="input">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"
+                    placeholder="Enter your email"
+                    required class="input">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password"
+                    placeholder="Create a password"
+                    required class="input">
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password"
+                    name="confirm_password"
+                    placeholder="Re-enter your password"
+                    required class="input">
+            </div>
+
+            <fieldset class="house-options">
+    <legend>Select Your House</legend>
+
+    <div class="house-grid">
+
+        <label class="house-box">
+            <input type="radio" name="house"
+                value="freezer" required>
+            <img src="images/pablo/pablo_house.webp"
+                alt="Taga-freezer house">
+            <span>Taga-freezer</span>
+        </label>
+
+        <label class="house-box">
+            <input type="radio" name="house"
+                value="maisan">
+            <img src="images/justin/justin_house.webp"
+                alt="Taga-maisan house">
+            <span>Taga-maisan</span>
+        </label>
+
+        <label class="house-box">
+            <input type="radio" name="house"
+                value="ihawan">
+            <img src="images/josh/josh_house.webp"
+                alt="Taga-ihawan house">
+            <span>Taga-ihawan</span>
+        </label>
+
+        <label class="house-box">
+            <input type="radio" name="house"
+                value="farm">
+            <img src="images/stell/stell_house.webp"
+                alt="Taga-farm house">
+            <span>Taga-farm</span>
+        </label>
+        
+        <label class="house-box">
+            <input type="radio" name="house"
+                value="manukan">
+            <img src="images/ken/ken_house.webp"
+                alt="Taga-manukan house">
+            <span>Taga-manukan</span>
+        </label>
+
+    </div>
+</fieldset>
+            <input type="submit" value="Create Account"
+                class="login-button">
+
+        </form>
+
+        <p class="register-text">
+            Already have an account?
+            <a href="login.html">Login</a>
+        </p>
+    </div>
+</main>
 </main>
 <footer class="navbar">
       <p>© 2026 Arseneons. All Rights Reserved. <br>

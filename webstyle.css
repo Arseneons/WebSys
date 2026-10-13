@@ -124,52 +124,197 @@ h2 {
 }
 
 .account {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-image: url("images/group/lawless3.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
-.account main {
-    min-height: 100vh;
+.login-main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    box-sizing: border-box;
 }
 
-.loginbox{
-            background-color: #364653;
-            border-radius: 5px;
-            padding: 20px;
-            width: 25%;
-            margin: auto;
-            color: #E7E3D8;
-            transform: translateY(-20px);
-         }
-#login {
-    transform: translateY(70px);
-    scale: 1.2;
+.loginbox {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 0 auto;
+    background: rgba(22, 26, 30, 0.5);
+    color: #E7E3D8;
+    border: 1px solid rgba(231, 227, 216, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+}
+
+.loginbox h2 {
+    grid-column: auto;
+    margin-bottom: 10px;
+    color: #E7E3D8;
+    text-align: center;
+    font-size: 26px;
+}
+
+.login-description {
+    margin-bottom: 30px;
+    color: #B8C4CC;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #E7E3D8;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .input {
-    scale: 80%; 
-    align-self: center;
-    padding-top: 15px;
+    display: block;
     width: 100%;
-    border: none;
-    background: transparent;
-    border-bottom: 2px solid #fff;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border: 1px solid #526575;
+    border-radius: 10px;
+    background-color: #202D38;
+    color: #FFFFFF;
+    font-size: 15px;
+    transition: border-color 0.2s, box-shadow 0.2s;
 }
 
-input[name="login"] {
-    scale: 80%;
-    margin-left: 16px;
+.input::placeholder {
+    color: #AAB5BF;
 }
 
-input[name="create_account"] {
-    scale: 80%;
-    margin-left: 10px;
-}
-
-input[name="password"]:focus, input[name="email"]:focus {
+.input:focus {
     outline: none;
+    border-color: #D98B20;
+    box-shadow: 0 0 0 3px rgba(217, 139, 32, 0.2);
 }
+
+.login-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #D98B20;
+    color: #161A1E;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.login-button:hover {
+    background-color: #F0A83B;
+    transform: translateY(-2px);
+}
+
+.register-text {
+    margin-top: 25px;
+    color: #B8C4CC;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.register-text a {
+    color: #F0A83B;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register-text a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.registration-box {
+    max-width: 460px;
+    margin: 10px auto;
+}
+
+.house-options {
+    border: none;
+    padding: 0;
+    margin: 10px 0 25px;
+    min-width: 0;
+}
+
+.house-options legend {
+    color: #E7E3D8;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.house-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 5px;
+}
+
+.house-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 2px solid #526575;
+    border-radius: 10px;
+    background-color: #202D38;
+    color: #E7E3D8;
+    cursor: pointer;
+    transition: border-color 0.2s, transform 0.2s;
+}
+
+.house-box input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+}
+
+.house-box img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.house-box span {
+    padding: 10px 4px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
+
+.house-box:hover {
+    border-color: #D98B20;
+    transform: translateY(-3px);
+}
+
+.house-box:has(input:checked) {
+    border-color: #D98B20;
+    box-shadow: 0 0 0 2px #D98B20;
+}
+
 
 h1, h2, p {
    color: #E7E3D8;
@@ -192,16 +337,40 @@ footer ul {
 }
 
 @media (max-width: 600px) {
-
-    .account {
+.account {
         background-attachment: scroll;
-        background-position: center;
+        background-size: cover;
     }
 
+    .login-main {
+        padding: 35px 16px;
+    }
+
+    .loginbox {
+        max-width: 420px;
+        padding: 28px 22px;
+    }
+
+    .loginbox h2 {
+        font-size: 23px;
+    }
+
+    .registration-box {
+        padding: 28px 22px;
+    }
+
+    .house-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .house-box span {
+        font-size: 12px;
+    }
     footer ul {
         grid-template-columns: 1fr;
-        gap: 12px;
-        padding: 10px;
+        gap: 0;
+        padding: 0;
     }
 }
 
