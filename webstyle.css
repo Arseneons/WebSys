@@ -44,45 +44,6 @@ h2 {
   grid-column: 1 / span 3;
 }
 
-.member {
-    display: flex;
-    gap: 0;
-    width: 100%;
-}
-
-.member-button {
-    width: 20%;
-    margin: 0;
-    padding: 0;
-    border: none;
-    background: none;
-    cursor: pointer;
-}
-
-.member-button img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.member-button:hover {
-    opacity: 0.85;
-}
-
-#member-info {
-    padding: 30px;
-    min-height: 250px;
-    transition: background-color 0.5s ease;
-}
-
-#member-info h2 {
-    font-size: 28px;
-}
-
-#member-info li {
-    margin-bottom: 10px;
-}
-
 
 .album {
     display: flex;
@@ -371,6 +332,9 @@ footer ul {
         grid-template-columns: 1fr;
         gap: 0;
         padding: 0;
+    }
+    #member-info{
+        grid-template-columns: 2fr;
     }
 }
 
