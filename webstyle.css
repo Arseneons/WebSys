@@ -44,46 +44,6 @@ h2 {
   grid-column: 1 / span 3;
 }
 
-
-.album {
-    display: flex;
-    gap: 0;
-    width: 100%;
-}
-
-.album-button {
-    width: 20%;
-    margin: 0;
-    padding: 0;
-    border: none;
-    background: none;
-    cursor: pointer;
-}
-
-.album-button img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.album-button:hover {
-    opacity: 0.85;
-}
-
-#album-info {
-    padding: 30px;
-    min-height: 250px;
-    transition: background-color 0.5s ease;
-}
-
-#album-info h2 {
-    font-size: 28px;
-}
-
-#album-info li {
-    margin-bottom: 10px;
-}
-
 .account {
     min-height: 100vh;
     display: flex;

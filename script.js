@@ -92,26 +92,11 @@ const members = {
         { name: "YouTube", url: "www.youtube.com/@FELIPsuperior" }
     ],
     gallery: [
-        "images/ken/ken2.jpg",
-        "images/ken/ken3.jpg",
-        "images/ken/ken4.jpg",
-        "images/ken/ken5.jpg",
-        "images/ken/ken6.jpg",
-        "images/ken/ken7.jpg",
-        "images/ken/ken8.jpg",
-        "images/ken/ken9.jpg",
-        "images/ken/ken10.jpg",
-        "images/ken/ken11.jpg",
-        "images/ken/ken12.jpg",
-        "images/ken/ken13.jpg",
-        "images/ken/ken14.jpg",
-        "images/ken/ken15.jpg",
-        "images/ken/ken16.jpg",
-        "images/ken/ken17.jpg",
-        "images/ken/ken18.jpg",
-        "images/ken/ken19.jpg",
-        "images/ken/ken20.jpg",
-        "images/ken/ken21.jpg"
+        "images/ken/ken2.jpg", "images/ken/ken3.jpg", "images/ken/ken4.jpg", "images/ken/ken5.jpg",
+        "images/ken/ken6.jpg", "images/ken/ken7.jpg", "images/ken/ken8.jpg", "images/ken/ken9.jpg",
+        "images/ken/ken10.jpg", "images/ken/ken11.jpg", "images/ken/ken12.jpg", "images/ken/ken13.jpg",
+        "images/ken/ken14.jpg", "images/ken/ken15.jpg", "images/ken/ken16.jpg", "images/ken/ken17.jpg",
+        "images/ken/ken18.jpg", "images/ken/ken19.jpg", "images/ken/ken20.jpg", "images/ken/ken21.jpg"
     ],
     },
     stell: {
@@ -130,28 +115,12 @@ const members = {
         { name: "YouTube", url: "https://www.youtube.com/" } ],
     gallery: 
         [
-"images/stell/stell2.jpg",
-"images/stell/stell3.jpg",
-"images/stell/stell4.jpg",
-"images/stell/stell5.jpg",
-"images/stell/stell6.jpg",
-"images/stell/stell7.jpg",
-"images/stell/stell8.jpg",
-"images/stell/stell9.jpg",
-"images/stell/stell10.jpg",
-"images/stell/stell11.jpg",
-"images/stell/stell12.jpg",
-"images/stell/stell13.jpg",
-"images/stell/stell14.jpg",
-"images/stell/stell15.jpg",
-"images/stell/stell16.jpg",
-"images/stell/stell17.jpg",
-"images/stell/stell18.jpg",
-"images/stell/stell19.jpg",
-"images/stell/stell20.jpg",
-"images/stell/stell21.jpg"
+        "images/stell/stell2.jpg", "images/stell/stell3.jpg", "images/stell/stell4.jpg", "images/stell/stell5.jpg",
+        "images/stell/stell6.jpg", "images/stell/stell7.jpg", "images/stell/stell8.jpg", "images/stell/stell9.jpg",
+        "images/stell/stell10.jpg", "images/stell/stell11.jpg", "images/stell/stell12.jpg", "images/stell/stell13.jpg",
+        "images/stell/stell14.jpg", "images/stell/stell15.jpg", "images/stell/stell16.jpg", "images/stell/stell17.jpg",
+        "images/stell/stell18.jpg", "images/stell/stell19.jpg", "images/stell/stell20.jpg", "images/stell/stell21.jpg"
         ]
-    
     },
 
     pablo:{
@@ -170,26 +139,11 @@ const members = {
         { name: "YouTube", url: "www.youtube.com/@FELIPsuperior" }
     ],
     gallery: [
-        "images/pablo/pablo2.jpg",
-"images/pablo/pablo3.jpg",
-"images/pablo/pablo4.jpg",
-"images/pablo/pablo5.jpg",
-"images/pablo/pablo6.jpg",
-"images/pablo/pablo7.jpg",
-"images/pablo/pablo8.jpg",
-"images/pablo/pablo9.jpg",
-"images/pablo/pablo10.jpg",
-"images/pablo/pablo11.jpg",
-"images/pablo/pablo12.jpg",
-"images/pablo/pablo13.jpg",
-"images/pablo/pablo14.jpg",
-"images/pablo/pablo15.jpg",
-"images/pablo/pablo16.jpg",
-"images/pablo/pablo17.jpg",
-"images/pablo/pablo18.jpg",
-"images/pablo/pablo19.jpg",
-"images/pablo/pablo20.jpg",
-"images/pablo/pablo21.jpg"
+        "images/pablo/pablo2.jpg", "images/pablo/pablo3.jpg","images/pablo/pablo4.jpg", "images/pablo/pablo5.jpg",
+        "images/pablo/pablo6.jpg", "images/pablo/pablo7.jpg", "images/pablo/pablo8.jpg", "images/pablo/pablo9.jpg",
+        "images/pablo/pablo10.jpg", "images/pablo/pablo11.jpg", "images/pablo/pablo12.jpg", "images/pablo/pablo13.jpg",
+        "images/pablo/pablo14.jpg", "images/pablo/pablo15.jpg", "images/pablo/pablo16.jpg", "images/pablo/pablo17.jpg",
+        "images/pablo/pablo18.jpg", "images/pablo/pablo19.jpg", "images/pablo/pablo20.jpg", "images/pablo/pablo21.jpg"
     ]
     },
     josh: {
@@ -208,26 +162,11 @@ const members = {
         { name: "YouTube", url: "https://www.youtube.com/" }
     ],
     gallery: [
-        "images/josh/josh2.jpg",
-"images/josh/josh3.jpg",
-"images/josh/josh4.jpg",
-"images/josh/josh5.jpg",
-"images/josh/josh6.jpg",
-"images/josh/josh7.jpg",
-"images/josh/josh8.jpg",
-"images/josh/josh9.jpg",
-"images/josh/josh10.jpg",
-"images/josh/josh11.jpg",
-"images/josh/josh12.jpg",
-"images/josh/josh13.jpg",
-"images/josh/josh14.jpg",
-"images/josh/josh15.jpg",
-"images/josh/josh16.jpg",
-"images/josh/josh17.jpg",
-"images/josh/josh18.jpg",
-"images/josh/josh19.jpg",
-"images/josh/josh20.jpg",
-"images/josh/josh21.jpg"
+        "images/josh/josh2.jpg", "images/josh/josh3.jpg", "images/josh/josh4.jpg", "images/josh/josh5.jpg",
+        "images/josh/josh6.jpg", "images/josh/josh7.jpg", "images/josh/josh8.jpg", "images/josh/josh9.jpg",
+        "images/josh/josh10.jpg", "images/josh/josh11.jpg", "images/josh/josh12.jpg", "images/josh/josh13.jpg",
+        "images/josh/josh14.jpg", "images/josh/josh15.jpg", "images/josh/josh16.jpg", "images/josh/josh17.jpg",
+        "images/josh/josh18.jpg", "images/josh/josh19.jpg", "images/josh/josh20.jpg", "images/josh/josh21.jpg"
     ]
 
     },
@@ -247,26 +186,11 @@ const members = {
         { name: "YouTube", url: "https://www.youtube.com/" }
     ],
     gallery: [
-        "images/justin/justin2.jpg",
-"images/justin/justin3.jpg",
-"images/justin/justin4.jpg",
-"images/justin/justin5.jpg",
-"images/justin/justin6.jpg",
-"images/justin/justin7.jpg",
-"images/justin/justin8.jpg",
-"images/justin/justin9.jpg",
-"images/justin/justin10.jpg",
-"images/justin/justin11.jpg",
-"images/justin/justin12.jpg",
-"images/justin/justin13.jpg",
-"images/justin/justin14.jpg",
-"images/justin/justin15.jpg",
-"images/justin/justin16.jpg",
-"images/justin/justin17.jpg",
-"images/justin/justin18.jpg",
-"images/justin/justin19.jpg",
-"images/justin/justin20.jpg",
-"images/justin/justin21.jpg"
+        "images/justin/justin2.jpg", "images/justin/justin3.jpg", "images/justin/justin4.jpg", "images/justin/justin5.jpg",
+"images/justin/justin6.jpg", "images/justin/justin7.jpg", "images/justin/justin8.jpg", "images/justin/justin9.jpg",
+"images/justin/justin10.jpg", "images/justin/justin11.jpg", "images/justin/justin12.jpg", "images/justin/justin13.jpg",
+"images/justin/justin14.jpg", "images/justin/justin15.jpg", "images/justin/justin16.jpg", "images/justin/justin17.jpg",
+"images/justin/justin18.jpg", "images/justin/justin19.jpg", "images/justin/justin20.jpg", "images/justin/justin21.jpg"
     ]
     }
 };
@@ -279,9 +203,6 @@ if (albumInfo){
 albumButtons.forEach(button => {
     button.addEventListener("click", () => {
         const album = albums[button.dataset.album];
-
-        // Change the page background
-        document.body.style.backgroundColor = album.background;
 
         // Display the selected album's tracklist
         albumInfo.innerHTML = `
@@ -355,7 +276,6 @@ if (memberInfo && memberGallery) {
                 memberGallery.innerHTML =
                     "<p>No gallery photos available for this member.</p>";
             }
-
 
             // Highlight the selected member's picture
             memberButtons.forEach(btn => {
