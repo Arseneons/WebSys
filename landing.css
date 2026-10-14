@@ -39,6 +39,11 @@ main  h1 {
     border-radius: 12px;
 }
 
+section img:hover {
+    src: url("images/group/me_wasconfilm.jpg");
+    transition: 0.3s ease;
+}
+
 .description {
     margin-top: 20px;
     line-height: 1.7;

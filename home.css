@@ -35,6 +35,7 @@ main {
     grid-column: 1 / -1;
     color: #E7E3D8;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .event {
@@ -102,7 +103,7 @@ main {
 .endorsement-gallery a {
     display: block;
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .endorsement-gallery img {
@@ -115,6 +116,81 @@ main {
 
 .endorsement-gallery a:hover img {
     transform: scale(1.04);
+}
+
+.endorsements {
+    padding: 40px 5%;
+    background-color: #0B1220;
+    color: #F2EBDD;
+}
+
+.endorsements h2 {
+    margin-bottom: 25px;
+    color: #D6A85F;
+    font-size: 30px;
+    text-align: center;
+}
+
+.endorsement-gallery1 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto 35px;
+}
+
+.endorsement-gallery2 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.endorsement-gallery1 img,
+.endorsement-gallery2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #40546B;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: transform 0.25s ease,
+                box-shadow 0.25s ease;
+}
+
+.endorsement-gallery1 img {
+    aspect-ratio: 3 / 4;
+}
+
+.endorsement-gallery2 img {
+    aspect-ratio: 16 / 9;
+}
+
+.endorsement-gallery1 img:hover,
+.endorsement-gallery2 img:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 800px) {
+    
+}
+
+@media (max-width: 480px) {
+    .endorsements {
+        padding: 30px 15px;
+    }
+
+    .endorsements h2 {
+        font-size: 25px;
+    }
+
+    .endorsement-gallery1,
+    .endorsement-gallery2 {
+        gap: 12px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -149,5 +225,8 @@ main {
 
     .endorsement-gallery img {
         height: 75px;
+    }
+    .endorsement-gallery1, .endorsement-gallery2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
